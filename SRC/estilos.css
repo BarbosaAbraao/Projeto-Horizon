@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    margin-left: 55%;
+    gap: 20px;
+}
+
+.imgF img{
+width: 100vw;
+height: 100vh;
+
+}
+button{
+    margin-top: 41%;
+    position: absolute;
+    margin-left: 15%;
+    padding: 15px 100px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #28282870;
+
+}
+.compra{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-family: Platypi;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    transition: 0.6s;
+}
+button:hover a{
+    color: black;
+}
+button .compra{
+    color: white;
+    font-size: 15px;
+}
+.resumo{
+    color:  rgb(255, 255, 255);
+    position: absolute;
+    background:linear-gradient(to right, #11111170,#28282852,  #41414152, #56565600 );
+    width: 70%;
+   height: 98%;
+   font-weight: 600;
+    
+}
+.resumo p{
+    text-align: center;
+    align-items: center;
+    margin-top: 40%;
+    margin-left: 10%;
+    font-size: 19px;
+    font-family: Platypi;
+    width: 600px;
+    height: 300px;
+}
+.logo img{
+    width: 500px;
+    height: 220px;
+    margin-left: 25%;
+    margin-top: 35%;
+}
+.logo{
+    position: absolute;
+}
+.compre{
+    background-color: #282828;
+    padding: 15px;
+}
+.tabela{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.452);
+   padding: 35px;
+   margin-left: 28%;
+   margin-top: 15%;
+   border-radius: 10px;
+   text-align: center;
+   font-family: Platypi;
+}
+.ps4{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 10%;
+}
+.ps4 img{
+    width: 200px;
+    height: 50px;
+    
+
+}
+.ps5{
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.ps5 img{
+    width: 150px;
+    height: 50px;
+    
+}
+
+
+.pc{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.pc img{
+    width: 200px;
+    height: 50px;
+}
+.ps4:hover{
+    background-color: #002fff;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.ps5:hover{
+    background-color: #282828;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.pc:hover{
+    background-color: #00aeff;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
